@@ -3,3 +3,7 @@
     font-weight:400;
     font-size: 18px;
 }
+@mixin hover (){
+    transition: 0.2s;
+    font-size: 40px;
+}

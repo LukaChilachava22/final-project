@@ -5,12 +5,22 @@ header {
     background-color:#b96a2d; 
     box-sizing:border-box;
     display: flex;
-    justify-content: space-between;
     
+    #abc{
+      transform: translate(-60px, -30px);
+      
+    }
     #tbc{
        height:70px;
        width:70px;
        margin-top:15px;
+       &:hover{
+         transition: 0.3s;
+         height: 80px;
+         width: 80px;
+      }
+      margin-top: 43px;
+      margin-left: 70px;
     }
     #hdiv1{
         display:flex;
@@ -31,23 +41,24 @@ header {
     display:flex;
     justify-content: center;
  }
- a{
+ .nav1{
     margin-left: 70px;
     text-decoration:none;
     color: #472D1C;
     margin-top: 30px;
     font-weight: 400;
     font-size: 18px;
-    
+    transform: translate(400px);
 
  }
  #login{
     margin-top: 30px;
-    margin-right: 35px ;
+    transform: translate(935px);
   
  }
  #contact{
     margin-right: 130px;
+    
  }
 }
     #ph1{
@@ -74,7 +85,49 @@ header {
        }
       #eng{
         transform: translate(-710px,240px);
+        
+      }
+      #georgia{
+         &:hover{
+            transition: 0.2s;
+            font-size: 40px;
+         }
+         transition: 0.2s;
+         font-size: 36px;
+         transform: translate(-550px,250px);
+         position: absolute;
+         display: flex;
+         color: #b46734
       }
     }
+    #best{
+      color: #472D1C;
+      font-weight: 700;
+      font-size: 58px;
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    #dv{
+      width: 100%;
+      height:300px;
+      display: flex;
+      justify-content: space-around;
+      .cards1{
+      background-color: #6C5C47;
+      width: 250px;
+      height: 220px;
+      display: flex;
+      border-radius: 20px;
+      margin-top: 40px;
+      &:hover{
+         transition: 0.3s;
+         width: 270px;
+         height: 240px;
+      }
+      transition: 0.3s;
+    }
+    }
+   
     
     
