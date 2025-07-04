@@ -111,45 +111,13 @@ header #contact {
   margin-right: 200px;
 }
 
-footer {
-  width: 100%;
-  height: 150px;
-  background-color: #6a4329;
-  box-sizing: border-box;
+#form {
+  width: 50%;
   display: flex;
-  justify-content: space-between;
-}
-footer #partner {
-  transform: translate(0, 20px);
-  margin-left: 20px;
-  font-size: 30px;
-}
-footer #tbcf {
-  display: flex;
-}
-footer #tbcf #icon2 {
-  display: flex;
-  transform: translate(400px);
-  font-size: 36px;
-}
-footer #tbcf img {
-  display: flex;
-  margin-top: 20px;
-  margin-left: 40px;
-  height: 60px;
-}
-footer #tbcf img:hover {
-  transition: 0.3s;
-  transform: scale(1.2);
-}
-footer #copyright {
-  display: flex;
-  font-size: 15px;
-  margin-top: 15px;
-  margin-right: 15px;
-}
-footer #login #login1 {
-  text-decoration: none;
+  justify-content: center;
+  height: 550px;
+  background-color: #472D1C;
+  color: #472D1C;
 }
 
 @media screen and (min-device-width: 1025px) {
@@ -215,44 +183,12 @@ footer #login #login1 {
   header #contact {
     margin-right: 200px;
   }
-  footer {
-    width: 100%;
-    height: 150px;
-    background-color: #6a4329;
-    box-sizing: border-box;
+  #form {
+    width: 50%;
     display: flex;
-    justify-content: space-between;
-  }
-  footer #partner {
-    transform: translate(0, 20px);
-    margin-left: 20px;
-    font-size: 30px;
-  }
-  footer #tbcf {
-    display: flex;
-  }
-  footer #tbcf #icon2 {
-    display: flex;
-    transform: translate(400px);
-    font-size: 36px;
-  }
-  footer #tbcf img {
-    display: flex;
-    margin-top: 20px;
-    margin-left: 40px;
-    height: 60px;
-  }
-  footer #tbcf img:hover {
-    transition: 0.3s;
-    transform: scale(1.2);
-  }
-  footer #copyright {
-    display: flex;
-    font-size: 15px;
-    margin-top: 15px;
-    margin-right: 15px;
-  }
-  footer #login #login1 {
-    text-decoration: none;
+    justify-content: center;
+    height: 550px;
+    background-color: #472D1C;
+    color: #472D1C;
   }
 }/*# sourceMappingURL=styles.css.map */

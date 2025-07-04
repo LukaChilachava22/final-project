@@ -1,4 +1,6 @@
  
+
+ 
 header {
     width:100%;
     height:96px;
@@ -54,6 +56,7 @@ header {
     margin-top: 30px;
     font-weight: 400;
     font-size: 18px;
+    
    
     
 
@@ -64,7 +67,6 @@ header {
     transition: 0.3s;
      &:hover{
      transform: scale(1.2);
-      
    }
   
  }
@@ -93,10 +95,12 @@ header {
         position: absolute;
         display: flex;
         color: #b46734;
+        
        }
        #geo{
         transform: translate(-570px,200px);
         display: flex;
+        
        }
       #eng{
         transform: translate(-710px,240px);
@@ -237,3 +241,4 @@ header {
          margin-right: 15px;
       }
     }
+    
