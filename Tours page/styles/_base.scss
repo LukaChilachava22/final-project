@@ -237,3 +237,30 @@ header {
          margin-right: 15px;
       }
     }
+    #comment{
+        
+        
+        display: flex;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;  
+        width: 70px;
+        height: 70px;
+        background-color: #b96a2d;
+        box-sizing: border-box;
+        border-radius: 30px;
+        transition-duration: 0.3s;
+        &:hover{
+          scale: 1.2;
+        }
+
+      #icon{
+        transform: scaleX(-1);
+        font-size:50px;
+        margin: auto;
+        margin-top: auto;
+        
+        
+        
+      }
+    }

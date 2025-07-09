@@ -89,22 +89,22 @@ header {
        background-repeat: no-repeat;
        background-size: cover;
        position: relative;
+       
        display: flex;
-       justify-content: center;
+       
        h1{
         position: absolute;
-        display: flex;
         color: #b46734;
-        
        }
        #geo{
-        transform: translate(-570px,200px);
-        display: flex;
+        top: 200px;
+        left: 20px;
+        
         
        }
       #eng{
-        transform: translate(-710px,240px);
-        display: flex;
+        top: 240px;
+        left: 20px;
         
       }
       #georgia{
@@ -114,10 +114,11 @@ header {
          }
          transition: 0.2s;
          font-size: 36px;
-         transform: translate(-550px,250px);
+         color: #b46734;
+         top: 251px;
+         left: 333px;
          position: absolute;
-         display: flex;
-         color: #b46734
+         
       }
     }
     #best{
@@ -174,6 +175,58 @@ header {
         }
          transition: 0.3s;
       }
+      #wiki1{
+         background-image: url(../images/noqalaqevi.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         position: relative;
+         h1{
+            font-size: 25px;
+            color: #fcfcfc;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+         }
+      }
+      #wiki2{
+          background-image: url(../images/qutaisi.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         position: relative;
+          h1{
+            font-size: 25px;
+            color: #fcfcfc;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+         }
+      }
+      #wiki3{
+         background-image: url(../images/svaneti2.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         position: relative;
+          h1{
+            font-size: 25px;
+            color: #fcfcfc;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+         }
+      }
+      #wiki4{
+          background-image: url(../images/signagi.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         position: relative;
+          h1{
+            font-size: 25px;
+            color: #fcfcfc;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+         }
+      }
    }
    #offers{
       display: flex;
@@ -182,6 +235,7 @@ header {
       font-size: 48px;
       margin-left: 100px;
       margin-top: 60px;
+     
    }
     #cards3{
       width: 100%;
@@ -200,6 +254,21 @@ header {
          height: 320px;
         }
          transition: 0.3s;
+      }
+       #offer1{
+         background-image: url(../images/tbcbanki.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         display: flex;
+        
+      }
+      #offer2{
+         background-image: url(../images/alta.jpg);
+         background-repeat: no-repeat;
+         background-size:cover;
+         
+         display: flex;
+        
       }
     }
     footer{
@@ -241,4 +310,30 @@ header {
          margin-right: 15px;
       }
     }
-    
+        #comment{
+        
+        
+        display: flex;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;  
+        width: 70px;
+        height: 70px;
+        background-color: #b96a2d;
+        box-sizing: border-box;
+        border-radius: 30px;
+        transition-duration: 0.3s;
+        &:hover{
+          scale: 1.2;
+        }
+
+      #icon{
+        transform: scaleX(-1);
+        font-size:50px;
+        margin: auto;
+        margin-top: auto;
+        
+        
+        
+      }
+    }

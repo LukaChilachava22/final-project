@@ -124,28 +124,26 @@ header #contact {
   background-size: cover;
   position: relative;
   display: flex;
-  justify-content: center;
 }
 #ph1 h1 {
   position: absolute;
-  display: flex;
   color: #b46734;
 }
 #ph1 #geo {
-  transform: translate(-570px, 200px);
-  display: flex;
+  top: 200px;
+  left: 20px;
 }
 #ph1 #eng {
-  transform: translate(-710px, 240px);
-  display: flex;
+  top: 240px;
+  left: 20px;
 }
 #ph1 #georgia {
   transition: 0.2s;
   font-size: 36px;
-  transform: translate(-550px, 250px);
-  position: absolute;
-  display: flex;
   color: #b46734;
+  top: 251px;
+  left: 333px;
+  position: absolute;
 }
 #ph1 #georgia:hover {
   transition: 0.2s;
@@ -210,6 +208,58 @@ header #contact {
   transition: 0.3s;
   transform: scale(1.1);
 }
+#cards2 #wiki1 {
+  background-image: url(../images/noqalaqevi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#cards2 #wiki1 h1 {
+  font-size: 25px;
+  color: #fcfcfc;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+#cards2 #wiki2 {
+  background-image: url(../images/qutaisi.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#cards2 #wiki2 h1 {
+  font-size: 25px;
+  color: #fcfcfc;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+#cards2 #wiki3 {
+  background-image: url(../images/svaneti2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#cards2 #wiki3 h1 {
+  font-size: 25px;
+  color: #fcfcfc;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+#cards2 #wiki4 {
+  background-image: url(../images/signagi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#cards2 #wiki4 h1 {
+  font-size: 25px;
+  color: #fcfcfc;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
 
 #offers {
   display: flex;
@@ -238,6 +288,18 @@ header #contact {
   transition: 0.3s;
   width: 620px;
   height: 320px;
+}
+#cards3 #offer1 {
+  background-image: url(../images/tbcbanki.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+#cards3 #offer2 {
+  background-image: url(../images/alta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
 }
 
 footer {
@@ -276,6 +338,28 @@ footer #copyright {
   font-size: 15px;
   margin-top: 15px;
   margin-right: 15px;
+}
+
+#comment {
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  background-color: #b96a2d;
+  box-sizing: border-box;
+  border-radius: 30px;
+  transition-duration: 0.3s;
+}
+#comment:hover {
+  scale: 1.2;
+}
+#comment #icon {
+  transform: scaleX(-1);
+  font-size: 50px;
+  margin: auto;
+  margin-top: auto;
 }
 
 @media screen and (min-device-width: 1025px) {
@@ -354,28 +438,26 @@ footer #copyright {
     background-size: cover;
     position: relative;
     display: flex;
-    justify-content: center;
   }
   #ph1 h1 {
     position: absolute;
-    display: flex;
     color: #b46734;
   }
   #ph1 #geo {
-    transform: translate(-570px, 200px);
-    display: flex;
+    top: 200px;
+    left: 20px;
   }
   #ph1 #eng {
-    transform: translate(-710px, 240px);
-    display: flex;
+    top: 240px;
+    left: 20px;
   }
   #ph1 #georgia {
     transition: 0.2s;
     font-size: 36px;
-    transform: translate(-550px, 250px);
-    position: absolute;
-    display: flex;
     color: #b46734;
+    top: 251px;
+    left: 333px;
+    position: absolute;
   }
   #ph1 #georgia:hover {
     transition: 0.2s;
@@ -436,6 +518,58 @@ footer #copyright {
     transition: 0.3s;
     transform: scale(1.1);
   }
+  #cards2 #wiki1 {
+    background-image: url(../images/noqalaqevi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #cards2 #wiki1 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #cards2 #wiki2 {
+    background-image: url(../images/qutaisi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #cards2 #wiki2 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #cards2 #wiki3 {
+    background-image: url(../images/svaneti2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #cards2 #wiki3 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #cards2 #wiki4 {
+    background-image: url(../images/signagi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #cards2 #wiki4 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
   #offers {
     display: flex;
     color: #472D1C;
@@ -462,6 +596,18 @@ footer #copyright {
     transition: 0.3s;
     width: 620px;
     height: 320px;
+  }
+  #cards3 #offer1 {
+    background-image: url(../images/tbcbanki.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  }
+  #cards3 #offer2 {
+    background-image: url(../images/alta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
   }
   footer {
     width: 100%;
@@ -499,5 +645,26 @@ footer #copyright {
     font-size: 15px;
     margin-top: 15px;
     margin-right: 15px;
+  }
+  #comment {
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    background-color: #b96a2d;
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+  }
+  #comment:hover {
+    scale: 1.2;
+  }
+  #comment #icon {
+    transform: scaleX(-1);
+    font-size: 50px;
+    margin: auto;
+    margin-top: auto;
   }
 }/*# sourceMappingURL=styles.css.map */
