@@ -165,7 +165,7 @@ header #contact {
   display: flex;
   justify-content: space-around;
 }
-#dv .cards1 {
+#dv div {
   background-color: #6C5C47;
   width: 250px;
   height: 220px;
@@ -174,10 +174,75 @@ header #contact {
   margin-top: 40px;
   transition: 0.3s;
 }
-#dv .cards1:hover {
+#dv div:hover {
   transition: 0.3s;
   width: 270px;
   height: 240px;
+}
+#dv #tur1 {
+  background-image: url(../images/jvrismonasteri2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#dv #tur1 h1 {
+  font-size: 25px;
+  color: #fcfcfc;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+#dv #tur2 {
+  background-image: url(../images/gareji2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#dv #tur2 h1 {
+  font-size: 25px;
+  color: #fcfcfc;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+#dv #tur3 {
+  background-image: url(../images/mowameta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#dv #tur3 h1 {
+  font-size: 25px;
+  color: #fcfcfc;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+#dv #tur4 {
+  background-image: url(../images/martvili.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#dv #tur4 h1 {
+  font-size: 25px;
+  color: #fcfcfc;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+#dv #tur5 {
+  background-image: url(../images/vardzia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#dv #tur5 h1 {
+  font-size: 25px;
+  color: #fcfcfc;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 
 #wiki {
@@ -477,7 +542,7 @@ footer #copyright {
     display: flex;
     justify-content: space-around;
   }
-  #dv .cards1 {
+  #dv div {
     background-color: #6C5C47;
     width: 250px;
     height: 220px;
@@ -486,10 +551,75 @@ footer #copyright {
     margin-top: 40px;
     transition: 0.3s;
   }
-  #dv .cards1:hover {
+  #dv div:hover {
     transition: 0.3s;
     width: 270px;
     height: 240px;
+  }
+  #dv #tur1 {
+    background-image: url(../images/jvrismonasteri2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #dv #tur1 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #dv #tur2 {
+    background-image: url(../images/gareji2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #dv #tur2 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #dv #tur3 {
+    background-image: url(../images/mowameta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #dv #tur3 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #dv #tur4 {
+    background-image: url(../images/martvili.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #dv #tur4 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #dv #tur5 {
+    background-image: url(../images/vardzia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #dv #tur5 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
   }
   #wiki {
     font-weight: 700;
