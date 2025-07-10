@@ -107,6 +107,9 @@ header #login {
 header #login:hover {
   transform: scale(1.2);
 }
+header #login #login1 {
+  color: rgb(34, 34, 34) !important;
+}
 header #contact {
   margin-right: 200px;
 }
@@ -487,6 +490,9 @@ footer #copyright {
   }
   header #login:hover {
     transform: scale(1.2);
+  }
+  header #login #login1 {
+    color: rgb(34, 34, 34) !important;
   }
   header #contact {
     margin-right: 200px;
