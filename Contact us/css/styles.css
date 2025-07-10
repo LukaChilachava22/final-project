@@ -205,6 +205,10 @@ footer #copyright {
   margin-top: auto;
 }
 
+#iframe {
+  width: 30vw;
+}
+
 @media screen and (min-device-width: 1025px) {
   header {
     width: 100%;
@@ -358,5 +362,8 @@ footer #copyright {
     font-size: 50px;
     margin: auto;
     margin-top: auto;
+  }
+  #iframe {
+    width: 30vw;
   }
 }/*# sourceMappingURL=styles.css.map */
