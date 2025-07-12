@@ -107,6 +107,9 @@ header #signin {
 header #signin:hover {
   transform: scale(1.2);
 }
+header #signin #login1 {
+  color: rgb(34, 34, 34) !important;
+}
 header #contact {
   margin-right: 200px;
 }
@@ -345,6 +348,9 @@ footer #copyright {
   }
   header #signin:hover {
     transform: scale(1.2);
+  }
+  header #signin #login1 {
+    color: rgb(34, 34, 34) !important;
   }
   header #contact {
     margin-right: 200px;
