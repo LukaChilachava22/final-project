@@ -435,6 +435,7 @@ footer #copyright {
   }
   header #hdiv1 {
     display: flex;
+    width: 100px;
   }
   header #icon {
     height: 70px;
@@ -446,6 +447,7 @@ footer #copyright {
     margin-left: 15px;
   }
   header #hdiv2 {
+    margin-left: 20px;
     display: flex;
     justify-content: center;
   }
@@ -474,7 +476,7 @@ footer #copyright {
     color: rgb(34, 34, 34) !important;
   }
   header #contact {
-    margin-right: 100px;
+    margin-right: 50px;
   }
   #ph1 {
     width: 100% px;

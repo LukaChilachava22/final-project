@@ -150,40 +150,16 @@ footer{
         }
       }
       .marjvena{
-        display: inline-block;
+        
+        display: flex;
         margin-right: 40px;
       }
       .span1{
         font-weight: 700;
       }
     }
-       #comment{
-        
-        
-        display: flex;
-        position: fixed;
-        bottom: 150px;
-        right: 30px;  
-        width: 70px;
-        height: 70px;
-        background-color: #b96a2d;
-        box-sizing: border-box;
-        border-radius: 30px;
-        transition-duration: 0.3s;
-        &:hover{
-          scale: 1.2;
-        }
-
-      #icon{
-        transform: scaleX(-1);
-        font-size:50px;
-        margin: auto;
-        margin-top: auto;
-        
-        
-        
-      }
-    }
+      
+    
     #iframe{
-      width: 30vw;
+      width: 25vw;
     }
