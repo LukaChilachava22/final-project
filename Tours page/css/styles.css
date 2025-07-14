@@ -122,7 +122,8 @@ header #contact {
 }
 .divmain1 .search {
   box-sizing: border-box;
-  margin-top: 50px;
+  height: 420px;
+  margin-top: 100px;
   margin-left: 50px;
   width: 400px;
   padding: 20px;
@@ -185,18 +186,12 @@ header #contact {
 .divmain1 .search #clear:hover {
   text-decoration: underline;
 }
-.divmain1 #tours {
-  display: flex;
-  font-size: 40px;
-  margin-top: 40px;
-  color: #b96a2d;
-  height: 40px;
-}
 .divmain1 #divtur {
   flex-direction: column;
   margin-top: 70px;
   display: flex;
   margin-right: 40px;
+  margin-left: 100px;
 }
 .divmain1 #divtur #tour1 {
   display: flex;
@@ -702,7 +697,8 @@ footer #copyright {
   }
   .divmain1 .search {
     box-sizing: border-box;
-    margin-top: 50px;
+    height: 420px;
+    margin-top: 100px;
     margin-left: 50px;
     width: 400px;
     padding: 20px;
@@ -765,18 +761,12 @@ footer #copyright {
   .divmain1 .search #clear:hover {
     text-decoration: underline;
   }
-  .divmain1 #tours {
-    display: flex;
-    font-size: 40px;
-    margin-top: 40px;
-    color: #b96a2d;
-    height: 40px;
-  }
   .divmain1 #divtur {
     flex-direction: column;
     margin-top: 70px;
     display: flex;
     margin-right: 40px;
+    margin-left: 100px;
   }
   .divmain1 #divtur #tour1 {
     display: flex;

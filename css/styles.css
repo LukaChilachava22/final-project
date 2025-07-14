@@ -410,6 +410,389 @@ footer #copyright {
   margin-right: 15px;
 }
 
+#bar {
+  display: none;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  header {
+    width: 100%;
+    height: 96px;
+    background-color: #b96a2d;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+  }
+  header #abc {
+    transform: translate(-60px, -30px);
+  }
+  header #tbc {
+    height: 70px;
+    width: 70px;
+    margin-top: 15px;
+    margin-top: 43px;
+    margin-left: 70px;
+  }
+  header #tbc:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+  }
+  header #hdiv1 {
+    display: flex;
+    width: 100px;
+  }
+  header #icon {
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  header h1 {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  header #hdiv2 {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  header .nav1 {
+    display: flex;
+    transition: 0.3s;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #472D1C;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  header .nav1:hover {
+    transform: scale(1.2);
+  }
+  header #login {
+    margin-top: 30px;
+    margin-right: 25px;
+    transition: 0.3s;
+  }
+  header #login:hover {
+    transform: scale(1.2);
+  }
+  header #login #login1 {
+    color: rgb(34, 34, 34) !important;
+  }
+  header #contact {
+    margin-right: 10px;
+  }
+  #ph1 {
+    width: 100% px;
+    height: 400px;
+    background-color: #472D1C;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-image: url(../images/georgia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+  }
+  #ph1 h1 {
+    position: absolute;
+    color: #b46734;
+  }
+  #ph1 #geo {
+    top: 40px;
+    left: 10px;
+    font-size: 20px;
+  }
+  #ph1 #eng {
+    top: 90px;
+    left: 10px;
+    font-size: 20px;
+  }
+  #ph1 #georgia {
+    transition: 0.2s;
+    font-size: 36px;
+    color: #b46734;
+    top: 320px;
+    left: 120px;
+    position: absolute;
+  }
+  #ph1 #georgia:hover {
+    transition: 0.2s;
+    font-size: 40px;
+  }
+  #best {
+    color: #472D1C;
+    font-weight: 700;
+    font-size: 58px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  #dv {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #dv div {
+    background-color: #6C5C47;
+    width: 200px;
+    height: 180px;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 40px;
+    transition: 0.3s;
+  }
+  #dv div:hover {
+    transition: 0.3s;
+    width: 270px;
+    height: 240px;
+  }
+  #dv #tur1 {
+    background-image: url(../images/riwa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #dv #tur1 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #dv #tur2 {
+    background-image: url(../images/gareji2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #dv #tur2 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #dv #tur3 {
+    background-image: url(../images/mowameta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #dv #tur3 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #dv #tur4 {
+    background-image: url(../images/martvili.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #dv #tur4 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #dv #tur5 {
+    background-image: url(../images/vardzia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #dv #tur5 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #wiki {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    color: #472D1C;
+    font-size: 67px;
+    margin-top: 170px;
+  }
+  #cards2 {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  #cards2 div {
+    width: 236px;
+    height: 284px;
+    border-radius: 15px;
+    background-color: #6C5C47;
+    display: flex;
+    margin-left: 30px;
+    transition: 0.3s;
+  }
+  #cards2 div:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+  }
+  #cards2 #wiki1 {
+    background-image: url(../images/noqalaqevi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #cards2 #wiki1 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #cards2 #wiki2 {
+    background-image: url(../images/qutaisi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #cards2 #wiki2 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #cards2 #wiki3 {
+    background-image: url(../images/svaneti2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #cards2 #wiki3 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #cards2 #wiki4 {
+    background-image: url(../images/signagi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #cards2 #wiki4 h1 {
+    font-size: 25px;
+    color: #fcfcfc;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #offers {
+    display: flex;
+    color: #472D1C;
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: 100px;
+    margin-top: 60px;
+  }
+  #cards3 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #cards3 div {
+    width: 400px;
+    height: 200px;
+    background-color: #6C5C47;
+    border-radius: 15px;
+    margin-top: 30px;
+    transition: 0.3s;
+  }
+  #cards3 div:hover {
+    transition: 0.3s;
+    width: 620px;
+    height: 320px;
+  }
+  #cards3 #offer1 {
+    background-image: url(../images/tbcbanki.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+  }
+  #cards3 #offer2 {
+    background-image: url(../images/alta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  }
+  footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    background-color: #6a4329;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer #partner {
+    transform: translate(0, 20px);
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  footer #tbcf {
+    display: flex;
+  }
+  footer #tbcf #icon2 {
+    display: flex;
+    transform: translate(400px);
+    font-size: 36px;
+  }
+  footer #tbcf img {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 60px;
+  }
+  footer #tbcf img:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+  }
+  footer #copyright {
+    display: flex;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (max-width: 767px) {
+  header .nav1 {
+    display: none;
+  }
+  header #login {
+    display: none;
+  }
+  header #bar {
+    display: inline-block;
+    margin-top: 27px;
+    margin-right: 35px;
+    font-size: 36px;
+  }
+}
 @media screen and (min-device-width: 768px) and (max-device-width: 1100px) {
   header {
     width: 100%;
@@ -771,6 +1154,9 @@ footer #copyright {
     margin-top: 15px;
     margin-right: 15px;
   }
+  #bar {
+    display: none;
+  }
 }
 @media screen and (min-device-width: 1101px) {
   header {
@@ -1125,5 +1511,8 @@ footer #copyright {
     font-size: 15px;
     margin-top: 15px;
     margin-right: 15px;
+  }
+  #bar {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */

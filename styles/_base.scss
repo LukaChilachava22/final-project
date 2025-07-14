@@ -44,6 +44,7 @@ header {
     justify-content: center;
  }
  .nav1{
+   
    display: flex;
    &:hover{
      transform: scale(1.2);
@@ -380,4 +381,6 @@ header {
          margin-right: 15px;
       }
     }
-        
+        #bar{
+      display: none;
+    }
