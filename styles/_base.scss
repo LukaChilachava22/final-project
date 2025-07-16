@@ -136,7 +136,7 @@ header {
     #dv{
       flex-wrap: wrap;
       width: 100%;
-      height:300px;
+      
       display: flex;
       justify-content: space-around;
       div{
@@ -250,6 +250,7 @@ header {
          background-repeat: no-repeat;
          background-size: cover;
          position: relative;
+         margin-bottom: 20px;
          h1{
             font-size: 25px;
             color: #fcfcfc;
@@ -263,6 +264,7 @@ header {
          background-repeat: no-repeat;
          background-size: cover;
          position: relative;
+         margin-bottom: 20px;
           h1{
             font-size: 25px;
             color: #fcfcfc;
@@ -309,7 +311,7 @@ header {
    }
     #cards3{
       width: 100%;
-      height: 400px;
+      margin-bottom: 50px;
       display: flex;
       justify-content: space-around;
       div{
